@@ -5,4 +5,7 @@ class Solution(object):
         if i in seen:
             return True
         seen.add(i)
-      return False    
+      return False 
+cherry=Solution()
+x=cherry.containsDuplicate([1,2,3,1])
+print(x)
